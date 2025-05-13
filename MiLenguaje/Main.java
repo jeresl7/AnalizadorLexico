@@ -9,7 +9,7 @@ public class Main {
         MiLenguajeLexer lexer = new MiLenguajeLexer(input);
         CommonTokenStream tokens = new CommonTokenStream(lexer);
         MiLenguajeParser parser = new MiLenguajeParser(tokens);
-        ParseTree tree = parser.programa(); // la regla raíz ahora se llama 'programa'
+        ParseTree tree = parser.programa(); 
         System.out.println(tree.toStringTree(parser));
     }
 }
