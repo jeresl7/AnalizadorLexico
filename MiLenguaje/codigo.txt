@@ -1,4 +1,4 @@
-entero pasos = 5e;
+entero pasos = 5;
 decimal tiempo = 2.5;
 avanzar(pasos);
 esperar(tiempo);
