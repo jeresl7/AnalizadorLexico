@@ -1,0 +1,9 @@
+entero pasos = 5e;
+decimal tiempo = 2.5;
+avanzar(pasos);
+esperar(tiempo);
+mostrar pasos;
+si (pasos > 4) {
+    girar(90);
+    detener;
+}
